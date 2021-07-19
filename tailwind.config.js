@@ -1,4 +1,5 @@
 module.exports = {
+	mode: 'jit',
 	purge: {
 		enabled: true,
 		// We want to look at SRC not DIST as some components might not be used yet but could be in a CMS style environment
@@ -12,6 +13,7 @@ module.exports = {
 		extend: {},
 	},
 	plugins: [
-		require('@tailwindcss/forms')
+		require('@tailwindcss/forms'),
+		require('tailwindcss-elevation')(['responsive', 'hover', 'focus'])
 	],
 };

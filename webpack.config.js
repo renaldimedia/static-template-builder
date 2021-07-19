@@ -1,6 +1,9 @@
+var webpack = require('webpack')
+// var IScroll = 
+
 module.exports = {
   entry: {
-	main: './src/assets/js/main.js'
+	  main: './src/assets/js/main.js'
   },
   output: {
     filename: '[name].js',
