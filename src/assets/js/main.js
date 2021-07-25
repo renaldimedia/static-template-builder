@@ -39,3 +39,4 @@ $.ajax({
 require("./modules/lazyload");
 require("./modules/validation");
 require("./modules/mobilemenu");
+require("./modules/carousel");

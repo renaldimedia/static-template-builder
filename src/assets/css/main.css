@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald&display=swap');
+@import url('./components.css');
 @tailwind base;
 @tailwind components;
-
+@tailwind utilities;
 /* Sample Button */
 .btn {
   @apply flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10;
 }
 
-@tailwind utilities;
+
 
 /* Form Validation */
 .error, .error:focus { @apply border-red-600; }
 .valid { @apply border-green-600; }
+h1, h2, .title{
+  font-family: 'Lobster', cursive;
+}

@@ -1,0 +1,38 @@
+@import "../../../node_modules/flickity/css/flickity.css";
+.carousel-cell.is-selected {
+    @apply opacity-100;
+  }
+
+.header-top{
+    background-color: #f2f5f4;
+}
+.header-top nav a{
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+cursor: pointer;
+}
+.brand.brand-name{
+    color: #046733;
+}
+.header-top nav a:after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #333;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.header-top nav a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
