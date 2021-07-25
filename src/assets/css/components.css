@@ -1,4 +1,11 @@
 @import "../../../node_modules/flickity/css/flickity.css";
+
+.brand-bg{
+    background-color: #046733;
+}
+.brand-secondary-bg{
+    background-color: #39b97c;
+}
 .carousel-cell.is-selected {
     @apply opacity-100;
   }
