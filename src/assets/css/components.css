@@ -17,9 +17,9 @@
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.15em;
-  
+  font-size: 12px;
   display: inline-block;
-  padding: 15px 20px;
+  padding-right: 8px;
   position: relative;
 cursor: pointer;
 }
@@ -42,4 +42,10 @@ cursor: pointer;
 .header-top nav a:hover:after { 
     width: 100%; 
     left: 0; 
+  }
+
+  @screen md{
+    .header-top nav a{
+        font-size: 16px;
+    }
   }
